@@ -1,0 +1,15 @@
+name: GUI
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - tensorflow==2.11.0
+      - tensorflow-addons==0.19.0
+      - vit-keras
+      - numpy==1.26.4
+      - streamlit
+      - pillow
+      - protobuf==3.19.6
+      - opencv-python
